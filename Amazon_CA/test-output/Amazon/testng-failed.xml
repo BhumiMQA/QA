@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]">
+  <test thread-count="5" name="Amazon web Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestLayer.Login">
+        <methods>
+          <include name="LogIn"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- TestLayer.Login -->
+    </classes>
+  </test> <!-- Amazon web Test(failed) -->
+</suite> <!-- Failed suite [Amazon] -->

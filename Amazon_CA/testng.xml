@@ -1,0 +1,16 @@
+<suite name="Amazon">
+	<listners>
+	 <listner class-name="utillties"/>
+	</listners>
+	
+	<test name="Amazon web Test">
+	<parameter name="browser" value="Chrome"/>
+	<classes>
+	  
+	  <class name="TestLayer.CreateACC"></class>
+	  <class name="TestLayer.User_Login"></class>
+	  <class name="TestLayer.User_Address"></class>
+	  
+	</classes>
+	</test>
+</suite> <!-- Suite -->
